@@ -1,9 +1,9 @@
 close all
 dados_MPC_sem_restricao_estimador()
-Simulation_Time = 100;
+Simulation_Time = 70;
 out = sim('modelo_mpc_sem_restricao_estimador',Simulation_Time);
 
-Simulation_Time = 100;
+Simulation_Time = 70;
 out = sim('modelo_mpc_sem_restricao',Simulation_Time);
 figure('Name','Mensuráveis x Com Estimador - Linear - Sem Restrição')
 % ----------------------------------

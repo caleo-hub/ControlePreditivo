@@ -1,6 +1,6 @@
 close all
 dados_MPC_sem_restricao()
-Simulation_Time = 100;
+Simulation_Time = 70;
 out = sim('modelo_mpc_sem_restricao',Simulation_Time);
 
 figure('Name','Linear - Sem Restrição')
@@ -66,7 +66,7 @@ sgtitle('Não Linear - Sem Restrição')
 
 %% --------------------------------------------------------------
 dados_MPC_com_restricao()
-Simulation_Time = 50;
+Simulation_Time = 30;
 out = sim('modelo_mpc_com_restricao',Simulation_Time);
 
 figure('Name','Linear - Com Restrição')
